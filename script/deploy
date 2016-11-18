@@ -1,6 +1,6 @@
 #!/bin/sh
  
-ssh app@http://159.203.121.73/ <<EOF
+ssh app@159.203.121.73 <<EOF
   cd ~/hello-jenkins
   git pull
   npm install --production
