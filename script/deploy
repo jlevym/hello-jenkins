@@ -1,8 +1,8 @@
 #!/bin/sh
 
 ssh app@159.203.121.73
-  cd ~/hello-jenkins
-  git pull
+  cd hello-jenkins
+  git pull origin master
   npm install --production
   forever start app.js
   exit
